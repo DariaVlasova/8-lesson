@@ -54,7 +54,7 @@ p{
 content: "";
 display: inline-block;
 width: 500px;
-background: url("../img/1.jpg") 0 0 /500px no-repeat;
+background: url("../img/1.jpg") 0 0 /100% no-repeat;
 
 }
 .hover_image:hover{
