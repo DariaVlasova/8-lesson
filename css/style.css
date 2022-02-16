@@ -52,8 +52,8 @@ p{
 
 .hover_image {
 content: "";
-display: inline-block;
-width: 500px;
+display: block;
+max-width: 300px;
 background: url("../img/1.jpg") 0 0 /100% no-repeat;
 
 }
@@ -65,7 +65,7 @@ a:visited {
     
 }
 .image{
-    max-width: 500px;
+    max-width: 300px;
 }
 p:target {
     background-color: rgb(0, 183, 255);
