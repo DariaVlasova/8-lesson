@@ -47,7 +47,10 @@ font-weight: normal;
 font-size: 16px;
 line-height: 1.62;
 color: #424551;
-margin: 12px 0px 12px 0px;
+padding: 6px 0px 6px 0px;
+}
+li:last-child{
+    padding-bottom: 48px;
 }    
 a{
 max-width:161px ;
@@ -58,23 +61,17 @@ font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 3.14;
-text-align: center;
 letter-spacing: 0.5px;
 color:  #F75E05 ;
-;
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 32px;
-padding-right: 32px;
+padding: 15px 32px 15px 32px;
 border: 2px solid #F75E05 ;
+text-align: center;
 }
 a:hover{
     background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);   
     color: #FFFFFF;
 }
-.margin{
-    margin-top: 48px;
-}
+
 .title {
 margin: 0px 0px 20px 0px;
 display: block;
@@ -96,7 +93,7 @@ color: #333333;
 	background-color: #000;
 }
 .title-horizontal{
-margin: 50px 0px 50px 0px;
+padding: 50px 0px 50px 0px;
 display: inline-block;
 font-size: 30px;
 font-family: Taviraj;
